@@ -19,8 +19,8 @@ struct iDineVideoPlayer: View {
                     .background(.white.opacity(0.7))
                 Spacer()
             }
-            .frame(width: 100, height: 100)
-            .background(.red.opacity(0.3))
+           // .frame(width: 100, height: 100)
+           // .background(.red.opacity(0.3))
                
         }
         .frame(width: 400,height: 300)

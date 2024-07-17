@@ -34,6 +34,20 @@
 		6F1319892C36769300A7F292 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1319882C36769300A7F292 /* OrderView.swift */; };
 		6F13198F2C36B61D00A7F292 /* iDineText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F13198E2C36B61D00A7F292 /* iDineText.swift */; };
 		6FB9E5FB2C3D349600FF966B /* iDineAnimateSF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB9E5FA2C3D349600FF966B /* iDineAnimateSF.swift */; };
+		6FB9E5FD2C3D49C500FF966B /* iDineReadRGBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB9E5FC2C3D49C500FF966B /* iDineReadRGBView.swift */; };
+		6FCD9D452C3E1ECA0060F0F2 /* iDineCombineShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCD9D442C3E1ECA0060F0F2 /* iDineCombineShapes.swift */; };
+		6FCD9D472C3E227B0060F0F2 /* iDineLoadAssetColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCD9D462C3E227A0060F0F2 /* iDineLoadAssetColors.swift */; };
+		6FCD9D492C3E248D0060F0F2 /* iDineMeshGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCD9D482C3E248D0060F0F2 /* iDineMeshGradient.swift */; };
+		6FCD9D4B2C3E26600060F0F2 /* iDineCustomFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCD9D4A2C3E26600060F0F2 /* iDineCustomFrameView.swift */; };
+		6FCD9D4D2C3E2A7C0060F0F2 /* iDineIndividualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCD9D4C2C3E2A7C0060F0F2 /* iDineIndividualView.swift */; };
+		6FCD9D4F2C3E2FB20060F0F2 /* iDineGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCD9D4E2C3E2FB20060F0F2 /* iDineGeometryReader.swift */; };
+		6FCD9D512C3E32300060F0F2 /* iDineOutsideSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCD9D502C3E32300060F0F2 /* iDineOutsideSafeArea.swift */; };
+		6FCD9D532C3E36260060F0F2 /* iDineDifferentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCD9D522C3E36260060F0F2 /* iDineDifferentView.swift */; };
+		6FCD9D552C3E5E330060F0F2 /* iDineForEachCreateViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCD9D542C3E5E330060F0F2 /* iDineForEachCreateViews.swift */; };
+		6FCD9D572C3E63320060F0F2 /* iDinelayoutPriorityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCD9D562C3E63320060F0F2 /* iDinelayoutPriorityView.swift */; };
+		6FCD9D592C3E64C50060F0F2 /* iDineSameWidthHeightViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCD9D582C3E64C50060F0F2 /* iDineSameWidthHeightViews.swift */; };
+		6FCD9D5B2C3E6F950060F0F2 /* iDineforegroundStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCD9D5A2C3E6F950060F0F2 /* iDineforegroundStyles.swift */; };
+		6FCD9D5D2C3E722E0060F0F2 /* iDineSafeAreaInsetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCD9D5C2C3E722E0060F0F2 /* iDineSafeAreaInsetView.swift */; };
 		6FD28A772C33AC9300897F71 /* iDineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD28A762C33AC9300897F71 /* iDineApp.swift */; };
 		6FD28A792C33AC9300897F71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD28A782C33AC9300897F71 /* ContentView.swift */; };
 		6FD28A7B2C33AC9500897F71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FD28A7A2C33AC9500897F71 /* Assets.xcassets */; };
@@ -100,6 +114,20 @@
 		6F1319882C36769300A7F292 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		6F13198E2C36B61D00A7F292 /* iDineText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineText.swift; sourceTree = "<group>"; };
 		6FB9E5FA2C3D349600FF966B /* iDineAnimateSF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineAnimateSF.swift; sourceTree = "<group>"; };
+		6FB9E5FC2C3D49C500FF966B /* iDineReadRGBView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineReadRGBView.swift; sourceTree = "<group>"; };
+		6FCD9D442C3E1ECA0060F0F2 /* iDineCombineShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineCombineShapes.swift; sourceTree = "<group>"; };
+		6FCD9D462C3E227A0060F0F2 /* iDineLoadAssetColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineLoadAssetColors.swift; sourceTree = "<group>"; };
+		6FCD9D482C3E248D0060F0F2 /* iDineMeshGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineMeshGradient.swift; sourceTree = "<group>"; };
+		6FCD9D4A2C3E26600060F0F2 /* iDineCustomFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineCustomFrameView.swift; sourceTree = "<group>"; };
+		6FCD9D4C2C3E2A7C0060F0F2 /* iDineIndividualView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineIndividualView.swift; sourceTree = "<group>"; };
+		6FCD9D4E2C3E2FB20060F0F2 /* iDineGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineGeometryReader.swift; sourceTree = "<group>"; };
+		6FCD9D502C3E32300060F0F2 /* iDineOutsideSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineOutsideSafeArea.swift; sourceTree = "<group>"; };
+		6FCD9D522C3E36260060F0F2 /* iDineDifferentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineDifferentView.swift; sourceTree = "<group>"; };
+		6FCD9D542C3E5E330060F0F2 /* iDineForEachCreateViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineForEachCreateViews.swift; sourceTree = "<group>"; };
+		6FCD9D562C3E63320060F0F2 /* iDinelayoutPriorityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDinelayoutPriorityView.swift; sourceTree = "<group>"; };
+		6FCD9D582C3E64C50060F0F2 /* iDineSameWidthHeightViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineSameWidthHeightViews.swift; sourceTree = "<group>"; };
+		6FCD9D5A2C3E6F950060F0F2 /* iDineforegroundStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineforegroundStyles.swift; sourceTree = "<group>"; };
+		6FCD9D5C2C3E722E0060F0F2 /* iDineSafeAreaInsetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineSafeAreaInsetView.swift; sourceTree = "<group>"; };
 		6FD28A732C33AC9300897F71 /* iDine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FD28A762C33AC9300897F71 /* iDineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineApp.swift; sourceTree = "<group>"; };
 		6FD28A782C33AC9300897F71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -214,6 +242,20 @@
 				6F0E423C2C3D0B7D0041B372 /* iDinePhotosPicker.swift */,
 				6F0E423E2C3D133E0041B372 /* iDinePhotosPickerVideo.swift */,
 				6FB9E5FA2C3D349600FF966B /* iDineAnimateSF.swift */,
+				6FB9E5FC2C3D49C500FF966B /* iDineReadRGBView.swift */,
+				6FCD9D442C3E1ECA0060F0F2 /* iDineCombineShapes.swift */,
+				6FCD9D462C3E227A0060F0F2 /* iDineLoadAssetColors.swift */,
+				6FCD9D482C3E248D0060F0F2 /* iDineMeshGradient.swift */,
+				6FCD9D4A2C3E26600060F0F2 /* iDineCustomFrameView.swift */,
+				6FCD9D4C2C3E2A7C0060F0F2 /* iDineIndividualView.swift */,
+				6FCD9D4E2C3E2FB20060F0F2 /* iDineGeometryReader.swift */,
+				6FCD9D502C3E32300060F0F2 /* iDineOutsideSafeArea.swift */,
+				6FCD9D522C3E36260060F0F2 /* iDineDifferentView.swift */,
+				6FCD9D542C3E5E330060F0F2 /* iDineForEachCreateViews.swift */,
+				6FCD9D562C3E63320060F0F2 /* iDinelayoutPriorityView.swift */,
+				6FCD9D582C3E64C50060F0F2 /* iDineSameWidthHeightViews.swift */,
+				6FCD9D5A2C3E6F950060F0F2 /* iDineforegroundStyles.swift */,
+				6FCD9D5C2C3E722E0060F0F2 /* iDineSafeAreaInsetView.swift */,
 			);
 			path = iDine;
 			sourceTree = "<group>";
@@ -382,9 +424,13 @@
 				6FD655F42C3B835E00586276 /* iDineInsideText.swift in Sources */,
 				6FD655F82C3B951000586276 /* iDineFormatDates.swift in Sources */,
 				6F0E421C2C3CE27F0041B372 /* iDineRenderingMarkdownText.swift in Sources */,
+				6FCD9D532C3E36260060F0F2 /* iDineDifferentView.swift in Sources */,
 				6F13198F2C36B61D00A7F292 /* iDineText.swift in Sources */,
+				6FCD9D512C3E32300060F0F2 /* iDineOutsideSafeArea.swift in Sources */,
 				6F0E422B2C3CE27F0041B372 /* iDineLettersSpacing.swift in Sources */,
+				6FCD9D5D2C3E722E0060F0F2 /* iDineSafeAreaInsetView.swift in Sources */,
 				6F0E421F2C3CE27F0041B372 /* iDineVideoPlayer.swift in Sources */,
+				6FCD9D472C3E227B0060F0F2 /* iDineLoadAssetColors.swift in Sources */,
 				6FD655FA2C3B96EC00586276 /* iDineTFtextCase.swift in Sources */,
 				6F0E42362C3CE27F0041B372 /* iDineShapes.swift in Sources */,
 				6F0E422A2C3CE27F0041B372 /* iDineShapeTrim.swift in Sources */,
@@ -393,15 +439,20 @@
 				6F0E42152C3CE27F0041B372 /* iDineRemoteImage.swift in Sources */,
 				6F0E423F2C3D133E0041B372 /* iDinePhotosPickerVideo.swift in Sources */,
 				6F1319892C36769300A7F292 /* OrderView.swift in Sources */,
+				6FCD9D4B2C3E26600060F0F2 /* iDineCustomFrameView.swift in Sources */,
 				6F0E422D2C3CE27F0041B372 /* iDineSelectText.swift in Sources */,
 				6FD28A792C33AC9300897F71 /* ContentView.swift in Sources */,
 				6FDC0E9F2C37C4D300A25C4E /* iDineAttributedString.swift in Sources */,
+				6FCD9D572C3E63320060F0F2 /* iDinelayoutPriorityView.swift in Sources */,
 				6FD28A772C33AC9300897F71 /* iDineApp.swift in Sources */,
+				6FCD9D452C3E1ECA0060F0F2 /* iDineCombineShapes.swift in Sources */,
 				6F0E42292C3CE27F0041B372 /* iDineLabel.swift in Sources */,
 				6F0E42342C3CE27F0041B372 /* iDineSpriteView.swift in Sources */,
+				6FCD9D4F2C3E2FB20060F0F2 /* iDineGeometryReader.swift in Sources */,
 				6FD655F22C3B816500586276 /* iDineTextAlignments.swift in Sources */,
 				6F0E42222C3CE27F0041B372 /* iDineMarkdownTextView.swift in Sources */,
 				6F0E42212C3CE27F0041B372 /* MainView.swift in Sources */,
+				6FCD9D4D2C3E2A7C0060F0F2 /* iDineIndividualView.swift in Sources */,
 				6FD28AA62C33ACDB00897F71 /* Order.swift in Sources */,
 				6F1319852C36521D00A7F292 /* ItemRow.swift in Sources */,
 				6F0E423D2C3D0B7D0041B372 /* iDinePhotosPicker.swift in Sources */,
@@ -412,7 +463,12 @@
 				6F0E422F2C3CE27F0041B372 /* iDineBackground.swift in Sources */,
 				6F0E423B2C3D09CB0041B372 /* iDineDynamicallyColor.swift in Sources */,
 				6F0E42242C3CE27F0041B372 /* iDineGradient.swift in Sources */,
+				6FCD9D552C3E5E330060F0F2 /* iDineForEachCreateViews.swift in Sources */,
 				6F0E422E2C3CE27F0041B372 /* iDineImageDrawImages.swift in Sources */,
+				6FCD9D5B2C3E6F950060F0F2 /* iDineforegroundStyles.swift in Sources */,
+				6FCD9D592C3E64C50060F0F2 /* iDineSameWidthHeightViews.swift in Sources */,
+				6FB9E5FD2C3D49C500FF966B /* iDineReadRGBView.swift in Sources */,
+				6FCD9D492C3E248D0060F0F2 /* iDineMeshGradient.swift in Sources */,
 				6FD28AA12C33ACCF00897F71 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

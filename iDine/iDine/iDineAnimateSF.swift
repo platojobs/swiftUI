@@ -11,13 +11,16 @@ struct iDineAnimateSF: View {
     var body: some View {
         VStack{
             
-            iDineContent()
+           // iDineContent()
             
-            iDineContentBounce()
+           // iDineContentBounce()
             
-            iDineRotateContentView()
+           // iDineRotateContentView()
             
-            iDineSpeedContentView()
+           // iDineSpeedContentView()
+            
+           // iDineVariableColorView()
+            iDineReplaceView()
             
             Spacer()
         }
@@ -91,5 +94,71 @@ struct iDineSpeedContentView: View {
                 .symbolEffect(.bounce,options: .speed(3).repeat(3), value: animate)
                 .font(.largeTitle)
         }
+    }
+}
+
+
+struct iDineVariableColorView: View {
+    @State private var animationsRunning = false
+    var body: some View {
+        Button("开始动画") {
+            withAnimation {
+                animationsRunning.toggle()
+            }
+        }
+        VStack {
+            HStack{
+                Image(systemName: "square.stack.3d.up")
+                    .symbolEffect(.variableColor.iterative, value: animationsRunning)
+                
+                Image(systemName: "square.stack.3d.up")
+                    
+                    .symbolEffect(.variableColor.cumulative, value: animationsRunning)
+                
+                Image(systemName: "square.stack.3d.up")
+                    
+                    .symbolEffect(.variableColor.reversing.iterative, value: animationsRunning)
+                
+                Image(systemName: "square.stack.3d.up")
+                    
+                    .symbolEffect(.variableColor.reversing.cumulative, value: animationsRunning)
+            }
+            
+            HStack {
+                           Image(systemName: "square.stack.3d.up")
+                               .symbolEffect(.variableColor.iterative, options: .repeating, value: animationsRunning)
+
+                           Image(systemName: "square.stack.3d.up")
+                               .symbolEffect(.variableColor.cumulative, options: .repeat(3), value: animationsRunning)
+
+                           Image(systemName: "square.stack.3d.up")
+                               .symbolEffect(.variableColor.reversing.iterative, options: .speed(3), value: animationsRunning)
+
+                           Image(systemName: "square.stack.3d.up")
+                               .symbolEffect(.variableColor.reversing.cumulative, options: .repeat(3).speed(3), value: animationsRunning)
+                       }
+            
+            
+        }
+        .font(.largeTitle)
+        
+    }
+}
+
+
+struct iDineReplaceView:View {
+    @State private var animationsRunning = false
+    var body: some View {
+        
+        VStack{
+            Button(action: {
+                withAnimation {
+                    animationsRunning.toggle()
+                }
+            }, label: {
+                Label("点我", systemImage: animationsRunning ? "checkmark":"heart")
+            })
+        }
+        
     }
 }
